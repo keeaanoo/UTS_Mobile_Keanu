@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mesen Makanan</string>
+    <string name="btn_start">Start Now</string>
+    <string name="btn_register">Register</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_send">Kirim</string>
+    <string name="btn_order_send">Order dan Kirim</string>
+</resources>

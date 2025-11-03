@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="@dimen/screen_padding"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:clickable="true">
+
+    <TextView
+        android:text="Register"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_large"
+        android:layout_marginBottom="@dimen/section_spacing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/editTextNama"
+        android:hint="Nama Lengkap"
+        android:textSize="@dimen/text_medium"
+        android:layout_width="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:clickable="true"
+        android:layout_height="@dimen/input_height"/>
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:hint="Username"
+        android:textSize="@dimen/text_medium"
+        android:layout_marginTop="@dimen/input_spacing"
+        android:layout_width="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:clickable="true"
+        android:layout_height="@dimen/input_height"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="@dimen/text_medium"
+        android:layout_marginTop="@dimen/input_spacing"
+        android:layout_width="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:clickable="true"
+        android:layout_height="@dimen/input_height"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:text="Register"
+        android:layout_marginTop="@dimen/section_spacing"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:textSize="@dimen/button_text_size"
+        android:backgroundTint="#000000"
+        android:textColor="@android:color/white"/>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/screen_padding">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Alamat Pengiriman"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_large"
+            android:layout_marginBottom="@dimen/section_spacing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/editTextNama"
+            android:hint="Nama Lengkap"
+            android:textSize="@dimen/text_medium"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/input_height"/>
+
+        <EditText
+            android:id="@+id/editTextAlamat"
+            android:hint="Alamat"
+            android:textSize="@dimen/text_medium"
+            android:layout_marginTop="@dimen/input_spacing"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/input_height"/>
+
+        <EditText
+            android:id="@+id/editTextPatokan"
+            android:hint="Patokan alamat lengkap"
+            android:textSize="@dimen/text_medium"
+            android:layout_marginTop="@dimen/input_spacing"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/input_height"/>
+
+        <Button
+            android:id="@+id/btnOrderKirim"
+            android:text="Order dan Kirim"
+            android:layout_marginTop="410dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:backgroundTint="#000000"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+</ScrollView>

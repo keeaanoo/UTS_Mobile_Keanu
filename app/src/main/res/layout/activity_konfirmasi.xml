@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="@dimen/screen_padding"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Halo Nazwa,"
+        android:textSize="@dimen/text_large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvKonfirmasi"
+        android:text="Terima kasih sudah memesan dan mohon tunggu konfirmasi kami mengenai pesanan anda."
+        android:textSize="@dimen/text_regular"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnSelesai"
+        android:text="Selesai"
+        android:layout_marginTop="500dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:backgroundTint="#000000"
+        android:textColor="@android:color/white"/>
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="lat.pam.mesenmakan">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MesanMakanan"
+        tools:targetApi="31">
+
+        <!-- MainActivity: Layar pembuka aplikasi -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- SignChoiceActivity: Layar pilihan untuk Login atau Sign Up -->
+        <activity
+            android:name=".SignChoiceActivity"
+            android:exported="false" />
+
+        <!-- LoginActivity: Layar untuk proses login -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize"/>
+
+        <!-- SignUpActivity: Layar untuk proses registrasi -->
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize"/>
+
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".PesananActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".AlamatPengirimanActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".KonfirmasiActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

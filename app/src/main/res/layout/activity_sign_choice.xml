@@ -1,0 +1,46 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/screen_padding"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:text="Sign up"
+        android:textSize="@dimen/text_title"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.4"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:text="Register"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginBottom="@dimen/button_spacing"
+        android:textSize="@dimen/button_text_size"
+        android:backgroundTint="@color/black"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@id/btnLogin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:text="Login"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/button_height"
+        android:textSize="@dimen/button_text_size"
+        android:backgroundTint="#4D4D4D"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
